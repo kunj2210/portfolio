@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+
+function App() {
+  return (
+    <div style={{padding: '20px'}}>
+      <h1>Test - React Working!</h1>
+      <p>Agar ye dikh raha hai to React chal raha hai</p>
+    </div>
+  )
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />)
+
+</edits_to_apply>
